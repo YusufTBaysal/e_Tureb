@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gezi">
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="375dp"
+        android:layout_height="200dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:onClick="golet"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/golet" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="375dp"
+        android:layout_height="75dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginLeft="8dp"
+        android:backgroundTint="#72C9D1"
+        android:onClick="golet"
+        android:singleLine="false"
+        android:text="Kutlubey Kampüsü Göleti\nÇeşit : Göl\nMesafe : "
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="176dp" />
+</GridLayout>

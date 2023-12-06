@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Konaklama">
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="375dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:onClick="yurt"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/yurt" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="375dp"
+        android:layout_height="75dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginLeft="8dp"
+        android:backgroundTint="#A8B870"
+        android:onClick="yurt"
+        android:text="Çeşmi Cihan Yurdu\nÇeşit : KYK Kız Yurdu\nMesafe : "
+        android:textAlignment="viewStart"
+        app:cornerRadius="0dp"/>
+</GridLayout>
