@@ -9,27 +9,27 @@
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="375dp"
-        android:layout_height="250dp"
+        android:layout_height="200dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/golet"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="35dp"
         />
 
 
     <ScrollView
         android:id="@+id/scrollView"
-        android:layout_width="368dp"
-        android:layout_height="269dp"
+        android:layout_width="373dp"
+        android:layout_height="270dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/button8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.138">
+        app:layout_constraintVertical_bias="0.149"
+        android:layout_marginTop="20dp">
 
         <TextView
             android:id="@+id/textView7"
@@ -47,9 +47,9 @@ Gölet ayrıca kampüs sakinlerinin yanı sıra Bartın halkına da hizmet etmek
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="307dp"
-        android:layout_height="71dp"
-        android:layout_marginBottom="32dp"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="25dp"
         android:backgroundTint="#58A63C"
         android:text="Rota Oluştur"
         app:layout_constraintBottom_toBottomOf="parent"

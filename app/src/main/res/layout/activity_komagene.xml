@@ -15,30 +15,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/komagene"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="35dp"/>
 
     <ScrollView
         android:id="@+id/scrollView"
-        android:layout_width="368dp"
-        android:layout_height="269dp"
+        android:layout_width="375dp"
+        android:layout_height="400dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.138">
+        app:layout_constraintVertical_bias="0.138"
+        android:layout_marginTop="20dp">
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="375dp"
         android:layout_height="250dp"
         android:gravity="center"
-        android:text="Yörpaş Yöresel Yiyecekler A.Ş. veya marka adı ile Komagene, Türkiye
-        merkezli bir etsiz çiğ köfte zinciridir. Şirket, 2005 yılında kurulmuş olup adını
-        Güneydoğu Anadolu Bölgesi'nde MÖ 2. yüzyıl ile MS 1. yüzyılda varlığını sürdürmüş
-        olan Kommagene Krallığı'ndan almaktadır.[1] Şirketin merkezi İstanbul'un Maltepe
-        ilçesinde yer almaktadır."
+        android:text="Yörpaş Yöresel Yiyecekler A.Ş. veya marka adı ile Komagene, Türkiye merkezli bir etsiz çiğ köfte zinciridir. Şirket, 2005 yılında kurulmuş olup adını Güneydoğu Anadolu Bölgesi'nde MÖ 2. yüzyıl ile MS 1. yüzyılda varlığını sürdürmüş olan Kommagene Krallığı'ndan almaktadır.[1] Şirketin merkezi İstanbul'un Maltepe ilçesinde yer almaktadır."
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,9 +46,9 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="307dp"
-        android:layout_height="71dp"
-        android:layout_marginBottom="32dp"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="25dp"
         android:backgroundTint="#58A63C"
         android:text="Rota Oluştur"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -5,19 +5,19 @@
     <android:item
         android:id="@+id/home"
         android:icon="@drawable/home"
-        android:title="home"
+        android:title="Home"
     />
 
     <android:item
         android:id="@+id/chatgpt"
         android:icon="@drawable/chatgpt"
-        android:title="chatgpt"
+        android:title="ChatGPT"
         />
 
     <android:item
         android:id="@+id/maps"
         android:icon="@drawable/googlemaps"
-        android:title="maps"
+        android:title="Maps"
         />
 
 </menu>

@@ -9,24 +9,26 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="375dp"
-        android:layout_height="250dp"
+        android:layout_height="200dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/yurt"
-        android:layout_marginTop="36dp"/>
+        android:background="@android:color/transparent"
+        android:layout_marginTop="35dp"/>
 
     <ScrollView
         android:id="@+id/scrollView"
-        android:layout_width="368dp"
-        android:layout_height="269dp"
+        android:layout_width="375dp"
+        android:layout_height="350dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.138">
+        app:layout_constraintVertical_bias="0.138"
+        android:layout_marginTop="25dp">
 
     <TextView
         android:id="@+id/textView6"
@@ -43,9 +45,9 @@
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="307dp"
-        android:layout_height="71dp"
-        android:layout_marginBottom="32dp"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="25dp"
         android:backgroundTint="#58A63C"
         android:text="Rota Oluştur"
         app:layout_constraintBottom_toBottomOf="parent"
