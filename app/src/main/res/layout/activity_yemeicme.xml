@@ -28,7 +28,7 @@
                 android:background="@android:color/transparent"
                 android:onClick="komagene"
                 android:scaleType="fitXY"
-                android:layout_marginTop="35dp"
+                android:layout_marginTop="5dp"
                 android:src="@drawable/komagene"/>
 
             <Button

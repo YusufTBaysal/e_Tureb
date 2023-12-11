@@ -15,7 +15,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/yurt"
         android:background="@android:color/transparent"
-        android:layout_marginTop="35dp"/>
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"/>
 
     <ScrollView
         android:id="@+id/scrollView"
