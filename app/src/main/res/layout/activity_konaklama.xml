@@ -5,8 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Konaklama"
-    android:background="@drawable/konaklama">
+    tools:context=".Konaklama">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -36,7 +35,7 @@
             android:onClick="yurt"
             android:text="Çeşmi Cihan Yurdu\nÇeşit : KYK Kız Yurdu\nMesafe : "
             android:textAlignment="viewStart"
-            app:cornerRadius="0dp"
+            app:cornerRadius="25dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageButton6" />

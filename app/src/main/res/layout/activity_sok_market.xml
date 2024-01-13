@@ -24,7 +24,7 @@
         android:layout_width="375dp"
         android:layout_height="500dp"
         android:gravity="center"
-        android:text="ŞOK Marketler Ticaret A.Ş., Türkiye merkezli bir indirim marketleri zinciridir. Şirket, 1995 yılında Migros tarafından kurulmuş olup Ağustos 2011 tarihinde Yıldız Holding şirketlerinden Gözde Girişim liderliğinde bir konsorsiyum tarafından satın alındı. Şirketin merkezi İstanbul'un Üsküdar ilçesinde yer almaktadır"
+        android:text="ŞOK Marketler Ticaret A.Ş., Türkiye merkezli bir indirim marketleri zinciridir. Şirket, 1995 yılında Migros tarafından kurulmuş olup Ağustos 2011 tarihinde Yıldız Holding şirketlerinden Gözde Girişim liderliğinde bir konsorsiyum tarafından satın alındı. Şirketin merkezi İstanbul'un Üsküdar ilçesinde yer almaktadır."
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

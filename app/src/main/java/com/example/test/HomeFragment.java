@@ -11,12 +11,10 @@ import androidx.fragment.app.Fragment;
 public class HomeFragment extends Fragment {
 
     public HomeFragment() {
-        // Gerekli boş kurucu metod
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Fragment'ın görünümünü oluşturun
         return inflater.inflate(R.layout.activity_kategoriler, container, false);
     }
 

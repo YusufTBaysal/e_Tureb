@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Yemeicme extends AppCompatActivity {
+public class Yemeicme extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

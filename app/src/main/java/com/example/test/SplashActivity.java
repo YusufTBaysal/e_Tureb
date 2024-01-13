@@ -30,6 +30,6 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(mainIntent);
                 finish();
             }
-        }, 2000); // 2 saniye bekletme süresi
+        }, 3000); // 2 saniye bekletme süresi
     }
 }

@@ -2,8 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/gezi">
+    android:layout_height="match_parent">
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -30,7 +29,7 @@
         android:text="Kutlubey Kampüsü Göleti\nÇeşit : Göl\nMesafe : "
         android:textAlignment="viewStart"
         android:textColor="@color/white"
-        app:cornerRadius="0dp"
+        app:cornerRadius="25dp"
         tools:layout_editor_absoluteX="33dp"
         tools:layout_editor_absoluteY="176dp" />
 
